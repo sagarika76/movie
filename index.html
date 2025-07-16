@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Movie Magic - Loading</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="particles" id="particles"></div>
+
+  <!-- Audio -->
+  <audio id="loadingAudio" loop>
+    <source src="audio.mp3" type="audio/mpeg" />
+    Your browser does not support the audio element.
+  </audio>
+
+  <div class="audio-control" id="audioControl">
+    <i class="fas fa-volume-up"></i>
+  </div>
+
+  <div class="content">
+    <h1>Welcome to Movie Magic</h1>
+    <p>The Ultimate Cloud-Based Movie Experience</p>
+    <p>Smart seat selection, personalized recommendations, and instant booking</p>
+
+    <div class="features">
+      <div class="feature">
+        <div class="feature-icon"><i class="fas fa-cloud"></i></div>
+        <div class="feature-text">Cloud Powered</div>
+      </div>
+      <div class="feature">
+        <div class="feature-icon"><i class="fas fa-bolt"></i></div>
+        <div class="feature-text">Instant Booking</div>
+      </div>
+      <div class="feature">
+        <div class="feature-icon"><i class="fas fa-ticket-alt"></i></div>
+        <div class="feature-text">E-Tickets</div>
+      </div>
+      <div class="feature">
+        <div class="feature-icon"><i class="fas fa-star"></i></div>
+        <div class="feature-text">Personalized</div>
+      </div>
+    </div>
+
+    <div class="loader-container">
+      <div class="loader"></div>
+      <div class="progress-text">Loading your cinematic experience...</div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
